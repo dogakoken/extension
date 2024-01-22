@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fake News Detector & Word Counter</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <script src="wordcount.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="fakeNewsSection">
+      <h3>Fake News Detector</h3>
+      <p>Predicted Label: <span id="fakeNewsLabel"></span></p>
+      <p>Probability: <span id="fakeNewsProbability"></span></p>
+    </div>
+    <div id="selectedTextSection">
+      <h3>Selected Text</h3>
+      <p>Selected Text: <span id="selectedText"></span></p>
+    </div>
+    <div id="wordCounterSection">
+      <h3>Word Counter</h3>
+      <p>Words: <span id="words"></span></p>
+      <p>Spaces: <span id="space"></span></p>
+      <p>Chars: <span id="chars"></span></p>
+      <p>Chars Without Spaces: <span id="charsws"></span></p>
+      <p>Sentences: <span id="sentences"></span></p>
+    </div>
+  </body>
+</html>
