@@ -5,6 +5,7 @@ body {
   padding: 20px;
   width: 500px;
   align-items: center;
+  background: linear-gradient(45deg, #15222e, #8100e0);
 }
 
 h3 {
