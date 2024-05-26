@@ -7,60 +7,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <style>
-      @font-face {
-        font-family: Oddval Variable;
-        src: url("https://garet.typeforward.com/assets/fonts/campaigns/OddvalVariable-VariableVF.woff2");
-      }
 
-      #fakeNewsSection h3 {
-        font-family: Oddval Variable;
-        font-size: 4vh;
-        color: #c11f8b;
-        white-space: nowrap;
-        line-height: 90%;
-        font-variation-settings: "wght" 900, "ital" 1;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        animation: change 3s infinite;
-        margin-bottom: 40px;
-        margin-top: 30px;
-      }
-
-      span {
-        font-weight: bold;
-        color: #8100e0;
-        animation: pulse 1s infinite;
-      }
-
-      @keyframes change {
-        0%,
-        100% {
-          font-variation-settings: "wght" 900, "ital" 1;
-        }
-
-        50% {
-          font-variation-settings: "wght" 100, "ital" 0;
-        }
-      }
-    </style>
     <script src="wordcount.js"></script>
     <script src="popup.js"></script>
   </head>
   <body>
     <div id="fakeNewsSection">
-      <h3>
-        <!-- A container for your repeating lines of text -->
-
-        <!-- Each line of text -->
-
-        <!-- Each character of your text is wrapped in a span for individual control -->
-        <span>F</span><span>a</span><span>k</span><span>e</span><span>&nbsp;</span
-          ><span>N</span><span>e</span><span>w</span><span>s</span><span>&nbsp;</span
-          ><span>D</span><span>e</span><span>t</span><span>e</span><span>c</span><span>t</span
-          ><span>o</span><span>r</span>
-      </h3>
+      <h3>Fake News Detector</h3>
       <p>Predicted Label: <span id="fakeNewsLabel"></span></p>
       <p>Probability: <span id="fakeNewsProbability"></span></p>
     </div>
